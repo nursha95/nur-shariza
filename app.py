@@ -3,7 +3,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/page1')
 def page1():
     """Homepage - Page 1"""
     return render_template('page1.html')
